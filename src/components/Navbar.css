@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--navbar-background);
+  color: var(--navbar-text);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--navbar-text);
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: var(--navbar-hover);
+}
+
+.theme-toggle {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: transparent;
+  color: var(--navbar-text);
+  font-size: 1rem;
+}
